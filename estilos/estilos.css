@@ -133,7 +133,7 @@ div#nombrenoticiacabezote {
 }
 /*=== FRANJA MENU ===============================================================*/
 
-div#franjamenu {
+#nav-container {
 	clear: both;
 	height: 50px;
 	width: 100%;
@@ -143,7 +143,7 @@ div#franjamenu {
 	border-left: none;
 	border-right: none;
 }
-div#menu {
+#menu {
 	margin: auto;
 	clear: both;
 	width: 955px;
@@ -154,7 +154,8 @@ div#menu {
 	font-size: 24px;
 	letter-spacing: 1px;
 }
-div#franjamenu2 {
+
+#franjamenu2 {
 	display: none;
 	clear: both;
 	height: 100px;
@@ -221,7 +222,7 @@ div#franjainicio {
 	clear: both;
 	height: 90px;
 	width: 100%;
-	
+
 	border-top: none;
 	border-left: none;
 	border-right: none;
@@ -340,7 +341,7 @@ div.contenedorgris1 {
 	border-bottom: 0px solid #999;
 	border-left: none;
 	border-right: none;
-	
+
 }
 .cnt_gris2 {
 	clear: both;
@@ -350,7 +351,7 @@ div.contenedorgris1 {
 	padding:0 0 20px 0;
 	background: #eee;
 	border-bottom: 0px solid #999;
-	
+
 
 }
 
@@ -362,13 +363,13 @@ div.contenedorgris1 {
 	padding:15px 0 20px 0;
 	background: #eee;
 	border-bottom: 0px solid #999;
-	
+
 
 }
 
 .cnt-gris h1{
 	padding:20px 0 0 0;
-	font-family: 'SteelfishBold', AgencyFB, Arial; 
+	font-family: 'SteelfishBold', AgencyFB, Arial;
 	font-size: 50px;
 	text-align:center;
 }
@@ -376,7 +377,7 @@ div.contenedorgris1 {
 .cnt-gris h2{
 	padding:0 0 20px 0;
 	margin:0 0 0 0;
-	font-family: 'SteelfishBold', AgencyFB, Arial; 
+	font-family: 'SteelfishBold', AgencyFB, Arial;
 	font-size: 25px;
 	text-align:center;
 	color:#999
@@ -393,13 +394,13 @@ div.contenedorgris1 {
 	margin:0 0 30px 0;
 	background: #F93;
 	border-bottom: 0px solid #999;
-	
+
 
 }
 
 .cnt-amarillo h1{
 	padding:20px 0 0 0;
-	font-family: 'SteelfishBold', AgencyFB, Arial; 
+	font-family: 'SteelfishBold', AgencyFB, Arial;
 	font-size: 50px;
 	text-align:center;
 	color:#fff
@@ -408,7 +409,7 @@ div.contenedorgris1 {
 .cnt-amarillo h2{
 	padding:0 0 20px 0;
 	margin:0 0 0 0;
-	font-family: 'SteelfishBold', AgencyFB, Arial; 
+	font-family: 'SteelfishBold', AgencyFB, Arial;
 	font-size: 25px;
 	text-align:center;
 	color:#999
@@ -432,7 +433,7 @@ div.contenedorgris1 {
 #cnt-ttclaves h1{
 	padding:20px 0 0 0;
 	color:#fff;
-	font-family: 'SteelfishBold', AgencyFB, Arial; 
+	font-family: 'SteelfishBold', AgencyFB, Arial;
 	font-size: 50px;
 	text-align:center;
 }
@@ -440,7 +441,7 @@ div.contenedorgris1 {
 #cnt-ttclaves h2{
 	padding:0 0 20px 0;
 	margin:0 0 0 0;
-	font-family: 'SteelfishBold', AgencyFB, Arial; 
+	font-family: 'SteelfishBold', AgencyFB, Arial;
 	font-size: 25px;
 	text-align:center;
 	color:#999
@@ -477,10 +478,10 @@ div#cnt_etiquetafrase {
 	left: -80px;
 	top: -80px;
 	padding: 0px;
-	
+
 	background-image: url('../diseno/inicio/slogan.png');
 	background-repeat: no-repeat;
-	font-family: 'SteelfishBold', AgencyFB, Arial; 
+	font-family: 'SteelfishBold', AgencyFB, Arial;
 	font-size: 32px;
 	letter-spacing: 1px;
 	color: #FFF;
@@ -504,12 +505,12 @@ div.contenedoramarillo {
 	margin:auto;
 	text-align:center;
 	border-bottom:1px dotted #999;
-	
+
 }
 
 #cnt-claves h2{
 	padding:0;
-	font-family: 'SteelfishBold', AgencyFB, Arial; 
+	font-family: 'SteelfishBold', AgencyFB, Arial;
 	font-size:35px;
 	text-transform:uppercase;
 	color:#999;
@@ -562,7 +563,7 @@ div.contenedorcontenidos {
 	margin-top: 0px;
 	margin-bottom: 0px;
 
-	
+
 }
 div.contenedorgenerico {
 	clear: both;
@@ -611,7 +612,7 @@ div.cnt_mascontenidos {
 	width: 960px;
 	height: 130px;
 	margin-bottom: 10px;
-	
+
 }
 div.contvideos {
 	clear: both;
@@ -653,7 +654,7 @@ div.marcoamarillo {
 	height: 225px;
 	background-color: #FF9933;
 	padding: 10px;
-	
+
 }
 div#marcofoto {
 	width: 225px;
@@ -855,7 +856,7 @@ div.tts_amarillos2 {
 	font-family: 'SteelfishBold', AgencyFB, Arial;
 	font-size: 65px;
 	color: #F93;
-	
+
 	text-transform: uppercase;
 }
 div.tts_amarillos2 a {
@@ -920,7 +921,7 @@ div.titulosminusculasgrises {
 div.titulosnegros {
 
 	margin: 15px 0 0 0px;
-	
+
 	font-family: 'SteelfishBold', AgencyFB, Arial;
 	font-size: 50px;
 	color: #000;
@@ -928,7 +929,7 @@ div.titulosnegros {
 }
 div.tts_negroscentrados {
 	width: 900px;
-	
+
 	font-family: 'SteelfishBold', AgencyFB, Arial;
 	font-size: 50px;
 	color: #000;
@@ -977,7 +978,7 @@ div.titulosnegrosminusculas a:hover {
 div.titulosnegrospequenos2 {
 	clear: both;
 	margin: 20px 0 30px 0;
-	
+
 	font-family: 'SteelfishBold', AgencyFB, Arial;
 	font-size: 35px;
 	color: #000;
@@ -1117,13 +1118,13 @@ div#etqa_ganancias {
 }
 */
 #etqa_ganancias {
-	
+
 	width: 100%;
 	height: 50px;
-	
+
 	background:#333;
 	padding: 17px 0 0 0;
-	
+
 	font-family: 'SteelfishBold', AgencyFB, Arial;
 	font-size: 25px;
 	color: #999;
@@ -1131,7 +1132,7 @@ div#etqa_ganancias {
 	text-transform:uppercase;
 	z-index: 120;
 	cursor: pointer;
-	
+
 	-webkit-transition: background-color 0.5s ;
     -moz-transition: background-color 0.5s ;
     -o-transition: background-color 0.5s ;
@@ -1222,7 +1223,7 @@ div.textos4 {
 	color: #000;
 	text-align: justify;
 	font-weight: normal;
-	
+
 }
 div.textos4 a {
 	color: #000;
@@ -1612,7 +1613,7 @@ div.ganchos {
 	padding: 10px;
 	background-color: #000;
 	box-shadow: 0px 0px 10px #666;
-	
+
 	-webkit-transition: opacity 0.5s, background-color 0.5s;
     -moz-transition: opacity 0.5s, background-color 0.5s;
     -o-transition: opacity 0.5s, background-color 0.5s;
@@ -1624,7 +1625,7 @@ div.ganchos {
 }
 div.textoarticulos {
 	width: auto;
-	
+
 	font-family: Arial;
 	font-size: 12px;
 	padding: 10px 0 0 0;
@@ -1641,7 +1642,7 @@ div#gancho1 {
 	width: 160px;
 	height: 230px;
 	margin: -65px 5px 0 5px;
-	
+
 	-webkit-transition: opacity 0.5s, background-color 0.5s;
     -moz-transition: opacity 0.5s, background-color 0.5s;
     -o-transition: opacity 0.5s, background-color 0.5s;
@@ -1859,7 +1860,7 @@ div#mensajecontacto {
 	width:24%;
 	height:220px;
 	margin:5px 0.5% 20px 0.5%;
-	
+
 }
 
 .thumb{
@@ -1867,7 +1868,7 @@ div#mensajecontacto {
 	float:left;
 	width:100%;
 	height:auto;
-	
+
 }
 
 .cnt-titulo{
@@ -1919,7 +1920,7 @@ div#mensajecontacto {
 	right:0;
 	background-color:#bbb;
 	cursor:pointer;
-	
+
 }
 
 #btn-cerrar-video img{

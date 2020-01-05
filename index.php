@@ -15,7 +15,8 @@
 
 	<body>
 		<?php require_once('includes/gtm-body.php'); ?>
-		<?php require_once('cabezote.php');?>
+		<?php require_once('components/header/header-html.php');?>
+		<?php require_once('components/nav/nav-html.php'); ?>
 
 		<div id="franjainicio">
 			<div id="inicio">
@@ -31,16 +32,8 @@
 						<a href="inteligencia-familiar.php">INTELIGENCIA FAMILIAR</a>
 					</div>
 
-					<?php require_once('qs/q_banner.php'); ?>
+					<?php require_once('components/banner/banner-html.php'); ?>
 
-					<div id="colgajoprincipal">
-						<div id="cuerpocolgajo">
-							<a href="noticias.php"><img id="banner" src="cms/<?php echo $nbanner1; ?>" width="300" /></a>
-						</div>
-						<div id="textocolgajoprincipal"><?php echo substr($nbanner2, 0, 35); ?></div>
-					</div>
-
-					<?php require_once('cuerpos/banner.php') ?>
 					<div id="cnt_etiquetafrase"></div>
 				</div>
 			</div>
